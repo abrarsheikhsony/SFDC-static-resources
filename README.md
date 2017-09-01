@@ -7,6 +7,10 @@ https://developer.salesforce.com/docs/atlas.en-us.api_tooling.meta/api_tooling/t
 
 <i>SELECT Id, Name, Description, NamespacePrefix, Body, BodyLength, ContentType, CacheControl FROM StaticResource</i>
 
+<img src="supportedimages/Image1.png" />
+
+<img src="supportedimages/Image2.png" />
+
 #### Calculate the overall size of the StaticResources within an Org
 <i>SELECT SUM(BodyLength) FROM StaticResource where NamespacePrefix = Null</i>
 
